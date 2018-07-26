@@ -1,0 +1,801 @@
+*{
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        .all{
+            width:1000px;
+            height: 1000px;
+            margin: 0 auto;
+
+        }
+        .header{
+            width:1000px;
+            height: 397px;
+
+        }
+        /* header content*/
+        .header_top{
+            height: 75px;
+            width: 1000px;
+            z-index: 999;
+            position: fixed;
+
+        }
+        .logo{
+            margin-top: 20px;
+            width:146px;
+            height:65px;
+            float: left;
+
+
+        }
+        .nav{
+            width:715px;
+            height: 65px;
+            float: right;
+            text-align: left;
+            line-height: 65px;
+            list-style-type: none;
+
+        }
+        .nav li{
+            float: left;
+            color: #666;
+            font-size: 18px;
+            line-height: 65px;
+            margin: 0 10px 0;
+
+
+        }
+
+        .header_main{
+            width:1000px;
+            height: 100px;
+        }
+        .header_bottom_left{
+            width:700px;
+            height: 190px;
+            border:1px solid #ccc;
+            overflow: hidden;
+            font-size: 16px;
+            padding: 5px;
+            position: relative;
+            float: left;
+            margin-top: 12px;
+        }
+        .header_bottom_right{
+            width:280px;
+            margin-top: 5px;
+            height: 210px;
+            background: url("../img/4.jpg");
+            float: right;
+        }
+
+
+        input:nth-of-type(1){
+            margin:50px  5px 20px;
+            background-color: yellow;
+            opacity: 0.7;
+        }
+        input:nth-of-type(2){
+            margin:10px  5px 50px;
+            background-color: white;
+            opacity: 0.7;
+        }
+        .denglu{
+            width:270px;
+            height: 40px;
+            font-size: 30px;
+            line-height: 40px;
+            font-weight: 700;
+        }
+        .chuce{
+            width:270px;
+            height: 40px;
+            font-size: 30px;
+            line-height: 40px;
+            font-weight: 700;
+        }
+        .gonggao{
+            background-color:white ;
+        }
+        hr{
+            color: grey;
+            margin: 0;
+            padding: 0;
+        }
+        /* section content */
+        .section{
+            height: 360px;
+            color: #000;
+        }
+        .section_left{
+            box-sizing: content-box;
+            display: block;
+            float: left;
+            line-height: 18px;
+            position: static;
+            z-index: auto;
+            width: 300px;
+        }
+        /* section_left */
+        .section_left_top{
+            width: 260px;
+        }
+        .hauti{
+            color: rgb(57,57,57);
+            float: left;
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 26px;
+
+        }
+        .huatinei{
+            color:rgb(8,139,35);
+            float: left;
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 26px;
+        }
+        .shitu{
+            width:260px;
+            height: 150px;
+        }
+        .wo{
+            width:260px;
+            line-height: 18px;
+            color: rgb(102,102,102);
+            font-size: 12px;
+
+        }
+        .qingchong{
+            font-family: 宋体;
+            font-feature-settings: normal;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            font-size: 12px;
+            float: right;
+        }
+        .dian{
+            background-attachment: scroll;
+            background-clip: border-box;
+            background-image: url("http://www.bokee.com/topic/images/topic_li_bg_58.jpg");
+            background-origin: padding-box;
+            background-position: 0% 50%;
+            background-repeat: no-repeat;
+            background-size:auto auto;
+            font-size:12px;
+            height:22px;
+            line-height: 22px;
+            float: left;
+            padding-left: 5px;
+            width:8px;
+        }
+      /* section_main content */
+        .section_main{
+            width:390px;
+            height: 328px;
+            float: left;
+        }
+
+        .jinbao{
+            color: rgb(8,139,35);
+            float: left;
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 26px;
+        }
+        .hot{
+            color: rgb(177,177,177);
+            float: left;
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 26px;
+        }
+        .section_main_middle{
+            width:100%;
+            font-size:12px;
+
+            line-height: 24px;
+            overflow: hidden;
+
+        }
+        .dian1{
+            background-attachment: scroll;
+            background-clip: border-box;
+            background-image: url("http://www.bokee.com/topic/images/topic_li_bg_58.jpg");
+            background-origin: padding-box;
+            background-position: 0% 50%;
+            background-repeat: no-repeat;
+            background-size:auto auto;
+            font-size:12px;
+            height:22px;
+            line-height: 22px;
+            float: left;
+            padding-left: 3px;
+            width:8px;
+        }
+        .qingchong1{
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            font-size: 14px;
+
+
+
+        }
+        .zuozhe{
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+
+            font-size: 14px;
+            float: right;
+
+        }
+        /* section_right*/
+        .section_right{
+            width:290px;
+            float: right;
+        }
+        #shitu{
+            width:260px;
+            height: 150px;
+            margin-bottom: 5px;
+        }
+        .hot1 {
+            color: rgb(177, 177, 177);
+            float: left;
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 26px;
+
+        }
+        .wo1{
+            float: left;
+            width:260px;
+            line-height: 18px;
+            color: rgb(102,102,102);
+            font-size: 12px;
+        }
+
+        /* section1 content */
+
+         .section1{
+            height: 360px;
+            color: #000;
+
+
+        }
+        .section_left1{
+            box-sizing: content-box;
+            display: block;
+            float: left;
+            line-height: 18px;
+            position: static;
+            z-index: auto;
+            width: 300px;
+        }
+        /* section_left */
+        .section_left_top1{
+            width: 260px;
+        }
+        .hauti{
+            color: rgb(57,57,57);
+            float: left;
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 26px;
+
+        }
+        #huatinei{
+            color:rgb(8,139,35);
+            float: left;
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 26px;
+        }
+        #shitu{
+            width:260px;
+            height: 150px;
+        }
+        .wo{
+            width:260px;
+            line-height: 18px;
+            color: rgb(102,102,102);
+            font-size: 12px;
+
+        }
+        .qingchong{
+            font-family: 宋体;
+            font-feature-settings: normal;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            font-size: 12px;
+            float: right;
+        }
+        .dian{
+            background-attachment: scroll;
+            background-clip: border-box;
+            background-image: url("http://www.bokee.com/topic/images/topic_li_bg_58.jpg");
+            background-origin: padding-box;
+            background-position: 0% 50%;
+            background-repeat: no-repeat;
+            background-size:auto auto;
+            font-size:12px;
+            height:22px;
+            line-height: 22px;
+            float: left;
+            padding-left: 5px;
+            width:8px;
+        }
+      /* section_main content */
+        .section_main{
+            width:390px;
+            height: 328px;
+            float: left;
+        }
+
+        .jinbao{
+            color: rgb(8,139,35);
+            float: left;
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 26px;
+        }
+        .hot{
+            color: rgb(177,177,177);
+            float: left;
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 26px;
+        }
+        .section_main_middle{
+            width:100%;
+            font-size:12px;
+
+            line-height: 24px;
+            overflow: hidden;
+
+        }
+        .dian1{
+            background-attachment: scroll;
+            background-clip: border-box;
+            background-image: url("http://www.bokee.com/topic/images/topic_li_bg_58.jpg");
+            background-origin: padding-box;
+            background-position: 0% 50%;
+            background-repeat: no-repeat;
+            background-size:auto auto;
+            font-size:12px;
+            height:22px;
+            line-height: 22px;
+            float: left;
+            padding-left: 3px;
+            width:8px;
+        }
+        .qingchong1{
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            font-size: 14px;
+
+
+
+        }
+        .zuozhe{
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+
+            font-size: 14px;
+            float: right;
+
+        }
+        /* section_right*/
+        .section_right{
+            width:290px;
+            float: right;
+
+        }
+        #shitu{
+            width:260px;
+            height: 150px;
+            margin-bottom: 5px;
+        }
+        .hot1 {
+            color: rgb(177, 177, 177);
+            float: left;
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 26px;
+
+        }
+        .wo1{
+            float: left;
+            width:260px;
+            line-height: 18px;
+            color: rgb(102,102,102);
+            font-size: 12px;
+        }
+/* section1 content */
+.section1_right_middle{
+    float: left;
+    overflow: hidden;
+    font-size: 14px;
+    width:100%;
+    font-family: 微软雅黑;
+    margin-left: 10px;
+    line-height: 30px;
+}
+.section1_right_middle div:nth-child(odd){
+    float: left;
+    width: 20px;
+    color: white;
+    height: 20px;
+    line-height: 20px;
+
+    margin:5px 10px 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #2d2d2d;
+}
+.section1_right_middle div:nth-of-type(1)
+,.section1_right_middle div:nth-of-type(3),
+.section1_right_middle div:nth-of-type(5){
+    background-color: red;
+}
+.section1_right_middle div:nth-child(even){
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    width:250px;
+}
+
+
+
+
+/* section2 content */
+         .section2{
+
+            color: #000;
+             margin-bottom: 20px;
+
+
+
+        }
+        .section_left2{
+            box-sizing: content-box;
+            display: block;
+            float: left;
+            line-height: 18px;
+            position: static;
+            z-index: auto;
+            width: 700px;
+            height: 580px;
+        }
+        .section_right2{
+            float: right;
+            width: 300px;
+            height: 580px;
+        }
+        /* section_left */
+        .section_left_top2{
+            width: 700px;
+            height: 30px;
+            border: 1px solid red;
+        }
+        .section_left_middle2_left{
+            width:350px;
+            height: 120px;
+            line-height: 24px;
+            float: left;
+        }
+        .section_left_middle2_right{
+            width:340px;
+            height: 120px;
+            float: left;
+            line-height: 24px;
+            margin-left: 10px;
+        }
+       .section_left_top_bottom2{
+            width: 700px;
+           color: #6f4f67;
+       }
+       .section_left_bottom2{
+            width: 700px;
+           color: black;
+       }
+       .hauti5{
+            float: left;
+           color: #b10000;
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 26px;
+
+        }
+       .jinbao5{
+            color: rgb(57,57,57);
+            float: left;
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 26px;
+        }
+       .qingchong4{
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            font-size: 12px;
+        }
+        .zuozhe4{
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            font-size: 12px;
+            float: right;
+
+        }
+        .tuzuo{
+            float: left;
+            width:217px;
+            height: 280px;
+        }
+        .tuzhong{
+            float: left;
+            width: 240px;
+            height: 220px;
+        }
+        .tuzhong div:nth-child(1){
+            float: left;
+            width: 120px;
+            height: 220px;
+        }
+        .tuzhong div:nth-child(2){
+            float: left;
+            width: 120px;
+            height: 220px;
+        }
+
+        .tuoyou{
+            float: right;
+            width: 180px;
+            height: 220px;
+        }
+        .san{
+            width:260px;
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 50px;
+            font-size: 12px;
+            text-align: center;
+
+        }
+
+
+        /* section6_left content */
+        .section6{
+            width:1000px;
+            margin: 60px auto;
+
+
+        }
+        .section6_left{
+            width: 490px;
+
+            float: left;
+        }
+        .section6_right{
+            width: 490px;
+
+            float: left;
+            margin-left: 20px;
+        }
+        .section6_left_top1{
+            width:150px;
+            line-height: 25px;
+            float: left;
+            font-size: 18px;
+            display: inline-block;
+
+        }
+        .section6_left_top2{
+            width:330px;
+            background-color: #EFEFEF;
+            line-height: 25px;
+            float: right;
+
+            font-family: 微软雅黑;
+            padding-right: 10px;
+
+        }
+        .section6_left_top2 p{
+            float: right;
+            line-height: 25px;
+            background-color: #EFEFEF;
+            font-weight: 700;
+        }
+
+       .jinbao6{
+            color: rgb(57,57,57);
+            float: left;
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-size: 18px;
+            font-weight: 700;
+
+            line-height: 25px;
+        }
+       .hauti6{
+            float: left;
+           color: #b10000;
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 25px;
+
+        }
+       .section6_main_left{
+           color: blue;
+           float: left;
+       }
+       .section6_main_right{
+           float:right;
+           width: 330px;
+       }
+
+           .dian1{
+            background-attachment: scroll;
+            background-clip: border-box;
+            background-image: url("http://www.bokee.com/topic/images/topic_li_bg_58.jpg");
+            background-origin: padding-box;
+            background-position: 0% 50%;
+            background-repeat: no-repeat;
+            background-size:auto auto;
+            font-size:12px;
+            height:22px;
+            line-height: 22px;
+            float: left;
+            padding-left: 3px;
+            width:8px;
+        }
+        .qingchong6{
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            font-size: 12px;
+
+
+
+        }
+        .zuozhe{
+            font-family: 微软雅黑;
+            font-feature-settings: normal;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            font-size: 14px;
+            float: right;
+        }
+        .section7 img{
+            margin: 20px 0 10px 0;
+
+        }
+        .section8{
+            overflow: hidden;
+        }
+        .section8 img{
+            float: left;
+            text-align: center;
+            width: 312px;
+            margin:16px 10px 16px 10px ;
+        }
+        .section9{
+            width: 1000px;
+
+        }
+        .section9_left{
+            width: 290px;
+            float: left;
+        }
+        .section9_right{
+            width:710px;
+            height: 300px;
+            float: right;
+        }
+        .section9_left img{
+            padding: 4px;
+            border:1px solid #3d3d3d;
+        }
+        .xiaotu {
+            width:158px;
+            float: left;
+            font-size: 12px;
+            text-align: center;
+            margin: 5px;
+
+        }
+        .xiaotu img{
+             padding: 4px;
+            border:1px solid #3d3d3d;
+        }
+        .section9_left div{
+            line-height: 35px;
+            font-size: 14px;
+            text-align: center;
+        }
+        .section10_bottom{
+            float: left;
+            font-size: 12px;
+            text-align: center;
+            margin: 5px;
+            overflow: hidden;
+        }
+        .section10xia{
+            width: 1000px;
+            overflow: hidden;
+        }
+        .section10_bottom img{
+             padding: 4px;
+            border:1px solid #3d3d3d;
+        }
+        .footer{
+            text-align: center;
+            width:1000px;
+        }
+        .footer p{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            color: rgb(102,102,102);
+            text-align: center;
+        }
+        .footer img{
+            margin: 40px 10px;
+        }
+
+
+
+
